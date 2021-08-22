@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  height: 350px;
+  width: 350px;
+  box-shadow: 2px 2px 8px #333333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.heading {
+  font-family: roboto;
+  color: #0b69ff;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.para {
+  font-family: roboto;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #0b69ff;
+  border: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.number {
+  color: #0b69ff;
+  font-weight: 700;
+  font-size: 50px;
+}
